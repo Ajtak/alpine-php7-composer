@@ -14,6 +14,8 @@ RUN apk --update add wget \
 		     php7-mbstring \
 		     php7-phar \
 		     php7-xml \
+		     php7-tokenizer \
+		     php7-xmlwriter \
 		     php7-dom --repository http://nl.alpinelinux.org/alpine/edge/testing/ && rm /var/cache/apk/*
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
