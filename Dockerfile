@@ -4,7 +4,7 @@ Maintainer Jakub Fridrich <xfridrich@gmail.com>
 
 RUN apk --update add wget \
 		     curl \
-		     lftp \
+		     ncftp \
 		     git \
 		     php7 \
 		     php7-curl \
