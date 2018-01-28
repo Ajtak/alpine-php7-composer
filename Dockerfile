@@ -6,6 +6,7 @@ RUN apk --update add wget \
 		     curl \
 		     lftp \
 		     git \
+		     zip \
 		     php7 \
 		     php7-curl \
 		     php7-openssl \
