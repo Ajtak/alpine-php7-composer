@@ -16,6 +16,7 @@ RUN apk --update add wget \
 		     php7-phar \
 		     php7-xml \
 		     php7-tokenizer \
+		     php7-pdo \
 		     php7-xmlwriter \
 		     php7-dom --repository http://nl.alpinelinux.org/alpine/edge/testing/ && rm /var/cache/apk/*
 
