@@ -2,7 +2,8 @@ FROM alpine:latest
 
 Maintainer Jakub Fridrich <xfridrich@gmail.com>
 
-RUN apk --update add wget \
+RUN apk --update add nodejs \
+		     wget \
 		     curl \
 		     lftp \
 		     git \
@@ -21,6 +22,8 @@ RUN apk --update add wget \
 		     php7-dom --repository http://nl.alpinelinux.org/alpine/edge/testing/ && rm /var/cache/apk/*
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
+
+RUN npm install gulp-cli -g
 
 RUN mkdir -p /var/www
 
