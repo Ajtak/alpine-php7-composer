@@ -3,6 +3,7 @@ FROM alpine:latest
 Maintainer Jakub Fridrich <xfridrich@gmail.com>
 
 RUN apk --update add nodejs \
+		     npm \
 		     wget \
 		     curl \
 		     lftp \
