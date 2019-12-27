@@ -33,6 +33,7 @@ RUN apk --update add nodejs \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
 RUN npm install gulp-cli -g
+RUN npm install cross-env -g
 
 RUN mkdir -p /var/www
 
