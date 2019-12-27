@@ -19,6 +19,7 @@ RUN apk --update add nodejs \
 		     php7-sqlite3 \
 		     php7-simplexml \
 		     php7-xmlreader \
+		     php7-zip \
 		     php7-gd \
 		     php7-ctype \
 		     php7-phar \
