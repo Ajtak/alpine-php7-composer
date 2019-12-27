@@ -15,6 +15,9 @@ RUN apk --update add nodejs \
 		     php7-iconv \
 		     php7-json \
 		     php7-mbstring \
+		     php7-fileinfo \
+		     php7-sqlite3 \
+		     php7-ctype \
 		     php7-phar \
 		     php7-xml \
 		     php7-tokenizer \
