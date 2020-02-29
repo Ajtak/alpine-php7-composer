@@ -10,6 +10,7 @@ RUN apk --update add nodejs \
 		     git \
 		     zip \
 		     php7 \
+		     yarn \
 		     php7-curl \
 		     php7-openssl \
 		     php7-iconv \
